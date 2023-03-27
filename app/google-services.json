@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "944485904476",
+    "firebase_url": "https://janmat-fff46-default-rtdb.firebaseio.com",
+    "project_id": "janmat-fff46",
+    "storage_bucket": "janmat-fff46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944485904476:android:f864121375e85b72e97699",
+        "android_client_info": {
+          "package_name": "com.prabitra.janmat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944485904476-fj5qc0qrnf413c3kct3vuoqdhmn1o7cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDKJC2lfy99mR41ahuL8dm_kVTTyfERqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944485904476-fj5qc0qrnf413c3kct3vuoqdhmn1o7cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

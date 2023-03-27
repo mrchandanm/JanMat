@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/login_"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="JanMat"
+        android:textColor="@color/primary_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:background="@drawable/heading_bg"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/Register_login_txt"
+            android:textColor="@color/primary_color"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/secondary_color"
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textColorHint="@color/gray"
+            android:hint="Enter Name"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/primary_color"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"/>
+        <EditText
+            android:id="@+id/UserPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/secondary_color"
+            android:hint="Enter phone no."
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="phone"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/primary_color"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDDBDB"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:hint="Enter OTP"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:layout_marginBottom="7dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/getotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="@color/primary_color"
+            android:text="Get OTP"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/alreadyhaveanaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="already have an account?"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:layout_marginBottom="250dp"/>
+            <TextView
+                android:id="@+id/loginpage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login here"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/primary_color"
+                android:layout_marginBottom="250dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
